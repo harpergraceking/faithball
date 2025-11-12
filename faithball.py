@@ -49,11 +49,11 @@ if st.button("Shake the Faith Ball 🎱"):
 	st.markdown(f"<p style='text-align:center; font-style:italic;'>— {verse_ref}</p>", unsafe_allow_html=True)
 
 colors = {
-    "Joy": "#fff8e7",
-    "Fear": "#cce0ff",
-    "Sadness": "#e6e6fa",
-    "Anxiety": "#e0fff5",
-    "Gratitude": "#fff5e0"
+    "Joyful": "#fff8e7",
+    "Scared": "#cce0ff",
+    "Sad": "#e6e6fa",
+    "Anxious": "#e0fff5",
+    "Thankful": "#fff5e0"
 }
 
 color = colors[emotion]
