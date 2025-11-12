@@ -36,5 +36,5 @@ emotion = st.selectbox("I am feeling...", list(verses.keys()))
 
 if st.button("Shake the Faith Ball 🎱"):
 	verse_ref, verse_text = random.choice(verses[emotion])
-	st.success(f""{verse_text}" - {verse_ref}")
+	st.success(f"“{verse_text}” — {verse_ref}")
 	st.balloons()
