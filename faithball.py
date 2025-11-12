@@ -32,11 +32,11 @@ verses = {
 	]
 }
 colors = {
-    "Joyful": "#FFF6B2",
-    "Scared": "#cce0ff",
-    "Sad": "#e6e6fa",
-    "Anxious": "#e0fff5",
-    "Thankful": "#fff5e0"
+    "Joyful": "#FFD23F",     # bold golden yellow
+    "Scared": "#4A6FA5",     # strong cool blue
+    "Sad": "#6C5B7B",        # rich muted purple
+    "Anxious": "#00A896",    # bold teal
+    "Thankful": "#FF7F50"    # warm coral
 }
 emotion = st.selectbox("I am feeling...", list(verses.keys()))
 
