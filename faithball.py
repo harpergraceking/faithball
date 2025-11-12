@@ -32,7 +32,7 @@ verses = {
 	]
 }
 colors = {
-    "Joyful": "#fff8e7",
+    "Joyful": "#FFF6B2",
     "Scared": "#cce0ff",
     "Sad": "#e6e6fa",
     "Anxious": "#e0fff5",
