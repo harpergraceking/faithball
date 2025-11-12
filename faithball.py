@@ -1,10 +1,11 @@
 import streamlit as st
 import random
+import time
 
 #page setup 
 st.set_page_config(page_title="Faith Ball of Emotion 🎱", page_icon="🎱", layout="centered")
 
-st.title("Faith Ball of Emotion 🎱")
+st.markdown("<h1 style='text-alignment:center'>🎱 Faith Ball of Emotion 🎱</h1>", unsafe_allow_html=True)
 st.caption("Pick your emotion and shake for a verse")
 
 #emotionbank
@@ -35,6 +36,67 @@ verses = {
 emotion = st.selectbox("I am feeling...", list(verses.keys()))
 
 if st.button("Shake the Faith Ball 🎱"):
+	placeholder = st.empty()
+	shake_text = ["Shaking...", "Still shaking...", "Almost there...", "✨"]
+	for t in shake_text:
+		placeholder.markdown(f"<h3 style='text-align:center;'>{t}</h3>", unsafe_allow_html=True)
+		time.sleep(0.6)
+	placeholder.empty()
+	
 	verse_ref, verse_text = random.choice(verses[emotion])
-	st.success(f"“{verse_text}” — {verse_ref}")
 	st.balloons()
+	st.markdown(f'<h2 style="text-align:center;">“{verse_text}”</h2>', unsafe_allow_html=True)
+	 st.markdown(f"<p style='text-align:center; font-style:italic;'>— {verse_ref}</p>", unsafe_allow_html=True)
+
+colors = {
+    "Joy": "#fff8e7",
+    "Fear": "#cce0ff",
+    "Sadness": "#e6e6fa",
+    "Anxiety": "#e0fff5",
+    "Gratitude": "#fff5e0"
+}
+
+color = colors[emotion]
+st.markdown(
+    f"""
+    <style>
+    .stApp {{
+        background-color: {color};
+        transition: background-color 1s ease;
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+st.markdown(
+    """
+    <style>
+    @keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+    .fadein {
+        animation: fadeIn 2s ease-in;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+st.markdown(f"<h2 class='fadein' style='text-align:center;'>“{verse_text}”</h2>", unsafe_allow_html=True)
+st.markdown(
+    """
+    <style>
+    @keyframes sparkle {
+      0% {text-shadow: 0 0 5px gold;}
+      50% {text-shadow: 0 0 20px gold;}
+      100% {text-shadow: 0 0 5px gold;}
+    }
+    .sparkle {
+      animation: sparkle 2s infinite;
+      color: #fdd835;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+st.markdown(f"<h2 class='sparkle' style='text-align:center;'>“{verse_text}”</h2>", unsafe_allow_html=True)
