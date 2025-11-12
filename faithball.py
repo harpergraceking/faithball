@@ -46,7 +46,7 @@ if st.button("Shake the Faith Ball 🎱"):
 	verse_ref, verse_text = random.choice(verses[emotion])
 	st.balloons()
 	st.markdown(f'<h2 style="text-align:center;">“{verse_text}”</h2>', unsafe_allow_html=True)
-	 st.markdown(f"<p style='text-align:center; font-style:italic;'>— {verse_ref}</p>", unsafe_allow_html=True)
+	st.markdown(f"<p style='text-align:center; font-style:italic;'>— {verse_ref}</p>", unsafe_allow_html=True)
 
 colors = {
     "Joy": "#fff8e7",
