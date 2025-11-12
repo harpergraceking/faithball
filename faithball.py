@@ -38,9 +38,9 @@ colors = {
     "Anxious": "#e0fff5",
     "Thankful": "#fff5e0"
 }
-#app ui
 emotion = st.selectbox("I am feeling...", list(verses.keys()))
 
+# --- Apply color background immediately ---
 color = colors.get(emotion, "#ffffff")
 st.markdown(
     f"""
@@ -54,19 +54,20 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# --- Shake button logic ---
 if st.button("Shake the Faith Ball 🎱"):
-	placeholder = st.empty()
-	shake_text = ["Shaking...", "Still shaking...", "Almost there...", "✨"]
-	for t in shake_text:
-		placeholder.markdown(f"<h3 style='text-align:center;'>{t}</h3>", unsafe_allow_html=True)
-		time.sleep(0.6)
-	placeholder.empty()
-	
-	verse_ref, verse_text = random.choice(verses[emotion])
-	st.markdown(f'<h2 style="text-align:center;">“{verse_text}”</h2>', unsafe_allow_html=True)
-	st.markdown(f"<p style='text-align:center; font-style:italic;'>— {verse_ref}</p>", unsafe_allow_html=True)
+    placeholder = st.empty()
+    shake_text = ["Shaking...", "Still shaking...", "Almost there...", "✨"]
+    for t in shake_text:
+        placeholder.markdown(f"<h3 style='text-align:center;'>{t}</h3>", unsafe_allow_html=True)
+        time.sleep(0.6)
+    placeholder.empty()
 
-   st.markdown(
+    verse_ref, verse_text = random.choice(verses[emotion])
+    st.balloons()
+
+    # --- Fade-in effect ---
+    st.markdown(
         """
         <style>
         @keyframes fadeIn {
