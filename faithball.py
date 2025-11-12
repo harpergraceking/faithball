@@ -82,7 +82,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.markdown(f"<h2 class='fadein' style='text-align:center;'>\"{verse_text}\"</h2>", unsafe_allow_html=True)
+st.markdown(f'<h2 class="fadein" style="text-align:center;">"{verse_text}"</h2>', unsafe_allow_html=True)
 st.markdown(
     """
     <style>
