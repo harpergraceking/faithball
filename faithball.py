@@ -15,7 +15,7 @@ verses = {
 	],
 	"Scared": [
 		("Isaiah 41:10", "So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand."),
-		("Psalm 23:4", "Even though I walk through the darkest valley, I will fear no evil, for you are with me; your rod and your staff, they comfort me.)
+		("Psalm 23:4", "Even though I walk through the darkest valley, I will fear no evil, for you\'re with me; your rod and your staff, they comfort me.)
 	],
 	"Sad": [
 		("Deuteronomy 31:8", "The Lord Himself goes before you and will be with you; He will never leave you nor forsake you. Do not be afraid; do not be discouraged.),
