@@ -34,20 +34,20 @@ verses = {
 		("Psalm 7:17", "I will give thanks to the Lord because of his righteousness; I will sing the praises of the name of the LORD Most High."),
 		("1 Chronicles 16:34", "Give thanks to the Lord, for he is good; his love endures forever."),
 		("James 1:17", "Every good and perfect gift is from above, coming down from the Father of the heavenly lights, who does not change like shifting shadows.")
-	]
+	],
 	"Angry": [
 		("Proverbs 14:17", "A quick-tempered person acts foolishly, and one who schemes is hated... A patient person shows great understanding, but a tempered one promotes foolishness."),
 		("James 1:19-20", "My dear brothers and sisters, understand this: Everyone should be quick to listen, slow to speak, and slow to anger, for human anger does not accomplish God's righteousness."),
 		("Ephesians 4:26-27", "Be angry and do not sin. Don't let the sun go down on your anger, and don't give the devil an opportunity."),
 		("Ephesians 4:31-32", "Let all bitterness, anger and wrath, shouting and slander be removed from you, along with all malice. And be kind and compassionate to one another, forgiving one another, just as God also forgave you in Christ.")
-	]
+	],
 	"Guilty": [
 		("John 8:10-11", "Straightening up, Jesus said to her, 'Woman, where are they? Did no one condemn you?' She said, 'No one, Lord.' And Jesus said, 'I do not condemn you, either. Go. From now on sin no more.'"),
 		("Romans 8:1-2", "Therefore, there is now no condemnation for those who are in Christ Jesus. For the law of the Spirit of life in Christ Jesus has set you free from the law of sin and death."),
 		("1 John 1:9", "If we confess our sins, He is faithful and righteous to forgive us our sins and to cleanse us from all unrighteousness."),
 		("Hebrews 8:12", "And I will forgive their wickedness, and I will never again remember their sins.")
 		
-	]
+	],
 	"Lucky": [
 		("Jeremiah 29:11", "For I know the plans I have for you, declares the Lord, plans for welfare and not for evil, to give you a future and a hope."),
 		("Deuteronomy 31:6", "Be strong and courageous. Do not fear or be in dread of them, for it is the Lord your God who goes with you. He will not leave you or forsake you."),
