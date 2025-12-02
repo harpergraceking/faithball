@@ -1,8 +1,7 @@
 import streamlit as st
 import random
 import time
-import json 
-from streamlit_lottie import st_lottie 
+
 #page setup 
 st.set_page_config(page_title="Faith Ball of Emotion 🎱", page_icon="🎱", layout="centered")
 
