@@ -91,7 +91,6 @@ if st.button("Shake the Faith Ball 🎱"):
     placeholder.empty()
 
     verse_ref, verse_text = random.choice(verses[emotion])
-    st.ballsoons()
 
     # --- Fade-in effect ---
     st.markdown(
