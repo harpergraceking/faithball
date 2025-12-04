@@ -87,7 +87,7 @@ if st.button("Shake the Faith Ball 🎱"):
     shake_text = ["Shaking...", "Still shaking...", "Almost there...", "Let the ball tell you what you need to hear"]
     for t in shake_text:
         placeholder.markdown(f"<h3 style='text-align:center;'>{t}</h3>", unsafe_allow_html=True)
-        time.sleep(0.6)
+        time.sleep(1.5)
     placeholder.empty()
 
     verse_ref, verse_text = random.choice(verses[emotion])
