@@ -126,6 +126,6 @@ if st.button("Shake the Faith Ball 🎱"):
         unsafe_allow_html=True
     )
 
-    # --- Verse display ---
+    # verse display
     st.markdown(f"<h2 class='fadein' style='text-align:center;'>{verse_text}</h2>", unsafe_allow_html=True)
     st.markdown(f"<p style='text-align:center; font-style:italic;'>— {verse_ref}</p>", unsafe_allow_html=True)
